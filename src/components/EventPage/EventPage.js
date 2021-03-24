@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeTourCover from "../HomeTourCover/HomeTourCover"
+import Video from "./Video"
 import SEO from "../seo"
 import parse from 'html-react-parser'
 import { getImage } from "gatsby-plugin-image"
@@ -20,6 +21,8 @@ const EventPage = () => {
     const imgData1 = getImage(data.sectionImg1.localFile);
     const imgSponsor1 = getImage(data.sponsorImg1.localFile);
     const imgSponsor2 = getImage(data.sponsorImg2.localFile);
+    const videoTour = data.sectionVideo2;
+    console.log(videoTour, "here")
     
 
     return (
@@ -33,14 +36,18 @@ const EventPage = () => {
             {parse(`${data.section1}`)}
             <br />
             {parse(`${data.section2}`)}
+           <Video />
+            
+           
+           <div>
+           </div>
+            
             </SectionCopy>
 
             <SectionImg>
             <StyledImg image={imgData1} alt="something" /> 
             </SectionImg>
             </Section> 
-
-         
             </Wrapper>
             
 

@@ -5,6 +5,7 @@ export const useEventInfoQuery = () => {
     query EventTourQuery {
             wpPage(databaseId: {eq: 176}) {
               ACF_EventTour {
+                sectionVideo2
                 section1
                 section2
                 sectionImg1 {
