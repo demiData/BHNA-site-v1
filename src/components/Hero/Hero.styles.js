@@ -51,7 +51,7 @@ export const HeaderWrapper = styled.div`
   height: 100%;
   width: 100%;
   max-height: 760px;
-  /* padding: 4rem 24px; */
+  
 
   font-family: ${props => props.theme.fonts.main};
   color: #fff;
