@@ -27,13 +27,14 @@ const HomeTourCover = () => {
             </div>
             <Seperator />
             <div>
-                <p className="tour__online">Join us online</p>
-                <p className="tour__info"> <b>April 22-28, 2021</b> | Tickets now Available on Eventbrite</p>
-                <a href="https://www.eventbrite.com/e/31st-bungalow-heaven-home-tour-as-seen-through-a-lens-tickets-142046383557" rel="noopener noreferrer" target="_blank">
+                <p className="tour__online">Thank you for your support, we hope you join us next year</p>
+                {/* <p className="tour__info"> <b>April 22-28, 2021</b> | Tickets now Available on Eventbrite</p> */}
+                {/* <a href="https://www.eventbrite.com/e/31st-bungalow-heaven-home-tour-as-seen-through-a-lens-tickets-142046383557" rel="noopener noreferrer" target="_blank">
                     <button>
                         Buy Tickets
                     </button>
-                </a>
+                </a> */}
+                
             </div>
 
 

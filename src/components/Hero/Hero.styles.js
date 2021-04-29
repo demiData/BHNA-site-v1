@@ -134,7 +134,7 @@ export const HeaderWrapper = styled.div`
   .hero__details{
       color: #C0DF3C;
       font-weight: bold;
-      
+      font-size: 1.4rem;
   }
 
   /* @media ${props => props.theme.breakpoints.tablet2} {

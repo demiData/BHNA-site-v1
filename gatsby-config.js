@@ -56,3 +56,6 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+
+ // Yarn and use gatsby develop

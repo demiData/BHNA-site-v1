@@ -97,8 +97,8 @@ export const TourDetails = styled.div`
     }
 
     .tour__online {
-      font-size: 1.2rem;
-      color: orange;
+      font-size: 1.5rem;
+      color: #F8C89C;
     }
 
     .tour__info {
