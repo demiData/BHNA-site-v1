@@ -23,7 +23,7 @@ const HomeTourCover = () => {
             <Seperator />
             <div>
                 <p className="tour__headline">As Seen Through A Lens</p>
-                <p className="tour__sub-headline">Streaming April 12-26, 2022</p>
+                <p className="tour__sub-headline">Streaming April 12-26, 2023</p>
             </div>
             <Seperator />
             <div>
