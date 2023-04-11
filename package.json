@@ -1,7 +1,7 @@
 {
   "name": "bungalow-heaven",
   "private": true,
-  "description": "Bungalow Heaven Neighborhood Association website",
+  "description": "Bungalow Heaven Neighborhood Association website ",
   "version": "0.1.0",
   "author": "Demi Minjarez <demi@nerdica.io>",
   "dependencies": {
